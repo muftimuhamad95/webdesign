@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+
+    <div id="wraper">
+
+      <!--row for header-->
+      <div class="row">
+        <div class="col-12">
+          <header>
+            <h1>DRAGONFORCE</h1>
+          </header>
+        </div>
+      </div>
+
+      <!--row for video and ticker-->
+      <div class="row">
+        <div class="col-8">
+          <video object-fit="fill" src="video.mp4" muted autoplay loop id="video">
+
+          </video>
+        </div>
+        <div class="col-4"> 
+          
+          <div id="vticker">
+          <ul>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+            <li>Through the Fire</li>
+          </ul>
+        </div>
+
+      </div>
+      
+
+    </div>
+
+    <!--row for up down ticker-->
+    <div class="row">
+        <div class="col-4">
+          <div id="up">
+            <ul>
+              <li>ini naik</li>
+            </ul>
+          </div>
+        </div>
+        <div class="col-4">
+          <div id="down">
+            <ul>
+              <li>ini turun</li>
+            </ul>
+          </div>
+        </div>
+        
+      </div>
+
+    <!--row for footer-->  
+    <div class="row">
+      <div class="col-12">
+        <footer><marquee>Ini Footer Berjalan</marquee></footer>
+      </div>
+    </div>
+    </div>
+
+    <script type="text/javascript" src="jquery.js"></script>
+    <script type="text/javascript" src="jquery.vticker-min.js"></script>
+    <script type="text/javascript">
+      
+      $('#vticker').vTicker({
+          speed: 500,
+          pause: 2000,
+          showItems: 11,
+          animation: 'fade',
+          mousePause: false,
+          direction: 'down'
+          }),
+        
+        $('#up').vTicker({
+          speed: 500,
+          pause: 1100,
+          showItems: 1,
+          animation: 'fade',
+          mousePause: false,
+          direction: 'up'
+
+        }),
+        $('#down').vTicker({
+          speed: 500,
+          pause: 1100,
+          showItems: 1,
+          animation: 'fade',
+          mousePause: false,
+          direction: 'down'
+
+        });
+    </script>
+  </body>
+</html>

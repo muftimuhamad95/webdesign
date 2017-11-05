@@ -1,0 +1,70 @@
+header {
+
+    padding: 50px;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+nav {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 20px;
+    border-top-right-radius:10px;
+    border-top-left-radius:10px;
+}
+
+main {
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+aside {
+    margin-left: 0px;
+    margin-right: 0px;
+}
+
+footer {
+    margin-top: auto;
+    padding: 15px;
+    text-align: right;
+    font-size: 15px;
+    font-style: normal;
+    margin-left: 10px;
+    margin-right: 10px;
+    border-bottom-right-radius:10px;
+    border-bottom-left-radius:10px;
+}
+.menu {
+    color: white;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(117, 111, 117);
+    border-radius: 20px;
+}
+#background-color{
+    margin-top: 4px;
+    padding: 130px;
+    margin-bottom: 4px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+#merah:hover {
+    background-color: rgb(255, 34, 34);
+}
+#kuning:hover {
+    background-color: yellow;
+}
+#hijau:hover {
+    background-color: rgb(36, 208, 54);
+}
+
+#color-change {
+    padding: 5px;
+}
+
+p {
+    margin: 10px;
+}
