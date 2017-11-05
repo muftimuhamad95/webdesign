@@ -1,0 +1,15 @@
+Penjelasan Responsif Ticker
+
+//file index.html
+dalam membuat desain responsif dengan menggunakan css murni ini saya menggunakan struktur html5 semantic dan membaginya kedalam beberapa class row, diantaranya :
+- pada baris ke 13-19 saya buat row untuk header 
+- baris 22-45 saya buat row dengan class video dengan colom 8 untuk menempatkan video, dan class vticker dengan kolom 4 untuk menempatkan ticker
+- kemudian pada baris ke 53 saya buat class row dengan masing2 kolom 4 untuk menempatkan up and down ticker
+- pada baris 72-77 saya buat row dengan kolom 12 untuk menempatkan bagian footer dengan tag marquee untuk membuat efek tulisan berjalan.
+- pada baris 79-110 saya buat skrip javascript dengan plugin vticker untuk menjalankan fungsi2 ticker, pada baris 83-90 menjalankan fungsi pada id vticker, dan pada baris 92-107 menjalankan fungsi ticker pada id up dan down 
+
+//file style.css
+- pada baris 1-3 mengatur style semua ukuran box
+- pada baris 4- 16 mengatur style tag ul dan li dengan style yang telah disesuaikan
+- pada 18-43 mengatur id up, down, video, wraper dan class row dengan style yang telah disesuaikan
+- pada baris 45-98 mengatur css media screen dengan min width 400px (-+ukuran smartphone) akan menyesuaikan ukuran layar dengan size yang ditentukan, satu kolom bernilai 8,333333% dan 100% untuk 12 kolom,
