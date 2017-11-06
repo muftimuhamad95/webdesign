@@ -1,0 +1,15 @@
+Penjelasan script
+//index.html
+- pada baris 7 saya menginputkan script library jquery javascript 
+- pada baris 9 - 26 saya inputkan script javascript dengan standart sintak jquery
+- pada baris 12 - 13 adalah script standart jquery untuk merubah id merah menjadi warna merah dengan fungsi click jquery
+- pada baris 16 - 17 adalah script standart jquery untuk merubah id kunning menjadi warna kuning dengan fungsi click jquery
+- pada baris 20 - 21 adalah script standart jquery untuk merubah id hijau menjadi warna hijau dengan fungsi click jquery
+- pada baris 32 - 34 adalah script html untuk membuat tombol link yang masing2 saya beri merah, kuning, hijau
+- pada baris 38 - 40 saya membuat tag header dengan style css yang telah saya tentukan 
+- pada baris 49 - 53 saya membuat div untuk menempatkan perubahan warna 
+- pada baris 57 saya membuat footer dengan style css yg sudah saya buat
+
+//style.css
+- pada baris 1 - 39 saya mengatur tag header, nav, main, aside, footer dengan style css yg sudah saya tentukan 
+- pada baris 54 - 70 saya mengatur id merah, kuning, hijau dengan efek hover dan style css yg sudah saya tentukan
